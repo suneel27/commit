@@ -1,0 +1,44 @@
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 56px 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 44px;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  margin: 10px 0 18px;
+  color: #6b7280;
+  font-size: 18px;
+}
+
+.links {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #2563eb;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 18px;
+}
+
+.calendar {
+  overflow-x: auto;
+  padding-top: 10px;
+}
